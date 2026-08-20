@@ -1,0 +1,19 @@
+# Phase 6 requirements. Supabase, OpenRouter, and export libraries
+# (fpdf2, python-docx) are all now active; only bcrypt (Phase 7 admin)
+# remains commented out, so `pip install -r requirements.txt` today
+# installs everything Phase 1-6 use.
+
+streamlit>=1.38
+python-dotenv>=1.0
+supabase>=2.4
+
+# --- Phase 3 (AI engine) ---
+requests>=2.31
+tenacity>=8.2
+
+# --- Phase 6 (Export) ---
+fpdf2>=2.7
+python-docx>=1.1
+
+# --- Phase 7 (Admin) ---
+# bcrypt>=4.1
